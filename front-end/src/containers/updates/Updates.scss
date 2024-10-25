@@ -1,0 +1,24 @@
+.UpdatesContainer{
+    height: auto;
+    max-height:90vh;
+    padding:15px;
+    overflow:auto;
+    width:20%;
+    margin-left: 5vw; 
+margin-right: auto;
+border-radius: 50px;
+}
+@media (max-width: 1280px) and (min-width: 768px) {
+    .UpdatesContainer{
+        margin-left: auto; 
+        width:75%;
+margin-right: auto;
+    }
+}
+@media (max-width: 768px) {
+    .UpdatesContainer{
+        margin-left: auto; 
+margin-right: auto;
+width:75%;
+    }
+}
